@@ -9,7 +9,7 @@ permissions:
   contents: read
 
 env:
-  AWS_REGION: ${{ vars.AWS_REGION }}
+  AWS_REGION: eu-north-1
   EC2_INSTANCE_ID: ${{ vars.EC2_INSTANCE_ID }}
   DOCKERHUB_IMAGE: ${{ secrets.DOCKERHUB_USERNAME }}/genai-streamlit
 
